@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tender List - National Tenders</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- jqyery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./style/custom.css" />
+  </head>
+  <body>
+    <!-- login box start -->
+    <div class="loginBox">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="login-left">
+            <h3>Let’s Get Started</h3>
+            <div class="login-form">
+              <form action="">
+                <div>
+                  <label for="mobile">Mobile Number</label>
+                  <br />
+                  <input type="tel" name="mobile" id="mobile" placeholder="+91-9876543210" required />
+                </div>
+                <div>
+                  <label for="otp">OTP</label>
+                  <br />
+                  <input type="number" name="otp" id="otp" required />
+                  <br />
+                  <a href="#">Resend OTP</a>
+                </div>
+                <div class="acceptence">
+                  <input type="checkbox" id="check1" name="check1" value="whatsapp" required />
+                  <label for="check1"> By signing in, you agree with our Terms of Use.</label>
+                </div>
+                <div>
+                  <button type="submit">Submit OTP</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="login-points">
+            <img src="./assets/logo.png" alt="logo" />
+            <div class="login-icon-box">
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+              <div class="list">
+                <h3>Where can I get some?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+              </div>
+            </div>
+            <div class="login-icon-box">
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+              <div class="list">
+                <h3>Where can I get some?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+              </div>
+            </div>
+            <div class="login-icon-box">
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+              <div class="list">
+                <h3>Where can I get some?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="close">X</button>
+    </div>
+    <!-- login box end -->
+    <!-- header start -->
+    <div class="MainHeader">
+      <div class="TopHeader">
+        <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Search tenders by </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Category</a></li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Department</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Tender Submissions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing Plans</a></li>
+              <li class="nav-item">
+                <a class="nav-link icon-link" href="#"><i class="fa-solid fa-phone"></i></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" id="login" href="#">Login</a></li>
+            </ul>
+            <a href="#" class="nav-btn">START FREE TRIAL</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- header end  -->
+    <!-- body start  -->
+    <main id="InnerPage">
+      <div class="EventPage DashBoardWrap">
+        <div class="Breadcom">
+          <div class="container-fluid">
+            <ul class="List">
+              <li><a href="#">Home </a></li>
+              <li class="Space">&gt;</li>
+              <li><a href="#">Search By catagory </a></li>
+              <li class="Space">&gt;</li>
+              <li class="activeB">Oil And Natural Gas </li>
+            </ul>
+          </div>
+        </div>
+        <div class="FilterBoxContent ">
+          <div class="container">
+          <div class="FilterBox">
+            <div class="ClearBtn"><a href="#" class="Clear"> Clear all </a></div>
+            
+            <div class="ApplyFilterWrap">
+              <div class="SelectBox">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">My Preferance</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <h3 class="text-center">My Filter</h3>
+                    <p class="text-center text-danger">Choose filter then click on apply filter to get result according to your filter.</p>
+                    <div class="accordian-box">
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <div class="accordion-header" id="flush-headingOne">
+                            <div>
+                              <input type="radio" name="" id="pref" />
+                              <label for="pref">My Preference <span>(Not Editable)</span></label>
+                            </div>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">open</button>
+                          </div>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="more">
+                                <div>
+                                  <p>Keywords</p>
+                                  <span>Transportation</span> <span>Transportation</span>
+                                </div>
+                                <div>
+                                  <p>State</p>
+                                  <span>Gujarat</span>
+                                </div>
+                                <div>
+                                  <p>Category</p>
+                                  <span>Gujarat</span>
+                                </div>
+                                <div>
+                                  <p>Subcategory</p>
+                                  <span>Gujarat</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header" id="flush-headingOne">
+                            <div>
+                              <input type="radio" name="" id="pref" />
+                              <label for="pref">RO</label>
+                            </div>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">open</button>
+                          </div>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <form action="">
+                                <div>
+                                  <label for="filter-name">Filter Name</label>
+                                  <button>Delete Filter</button>
+                                </div>
+                                <input type="text" name="filter-name" id="filter-name" />
+                              </form>
+                              <div class="more">
+                                <div>
+                                  <p>Keywords</p>
+                                  <span>Transportation</span> <span>Transportation</span>
+                                </div>
+                                <div>
+                                  <p>Excluding Keywords</p>
+                                  <span>Transportation</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header" id="flush-headingThree">
+                            <div>
+                              <input type="radio" name="" id="pref" />
+                              <label for="pref">My Preference <span>(Not Editable)</span></label>
+                            </div>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">open</button>
+                          </div>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="more">
+                                <div>
+                                  <p>Keywords</p>
+                                  <span>Transportation</span> <span>Transportation</span>
+                                </div>
+                                <div>
+                                  <p>State</p>
+                                  <span>Gujarat</span>
+                                </div>
+                                <div>
+                                  <p>Category</p>
+                                  <span>Gujarat</span>
+                                </div>
+                                <div>
+                                  <p>Subcategory</p>
+                                  <span>Gujarat</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="applyBtnGrp">
+                      <button>Apply Filter</button>
+                      <button>Update Filter</button>
+                      <button class="ClsBtn" type="button">Close</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Category</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <input type="text" name="search" id="search-category" placeholder="search..." />
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <p class="text-center text-danger">Select items as per your need then click on apply to get result.</p>
+                    <h5>Selected Category</h5>
+                    <div class="selectedFilters">
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                    </div>
+                    <div class="category-box">
+                      <ul class="category-grid">
+                        <li>
+                          <input type="checkbox" id="animal" name="animal" value="animal" />
+                          <label for="animal">Animal Feed</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="fish" name="fish" value="fish" />
+                          <label for="fish">Fish Food</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="flower" name="flower" value="flower" />
+                          <label for="flower">Flower</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="husk" name="husk" value="husk" />
+                          <label for="husk">Husk</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Keyword</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <input type="text" name="search" id="search-category" placeholder="search..." />
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <p class="text-center text-danger">Select items as per your need then click on apply to get result.</p>
+                    <h5>Selected Keywords</h5>
+                    <div class="selectedFilters">
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                    </div>
+                    <div class="category-box">
+                      <ul class="category-grid">
+                        <li>
+                          <input type="checkbox" id="Transportation" name="Transportation" value="Transportation" />
+                          <label for="Transportation">Transportation</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="Transport" name="Transport" value="Transport" />
+                          <label for="Transport">Transport</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Department</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <input type="text" name="search" id="search-category" placeholder="search..." />
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <p class="text-center text-danger">Select items as per your need then click on apply to get result.</p>
+                    <h5>Selected Departments</h5>
+                    <div class="selectedFilters">
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                    </div>
+                    <div class="category-box">
+                      <ul class="category-grid">
+                        <li>
+                          <input type="checkbox" id="transportation" name="transportation" value="transportation" />
+                          <label for="transportation">Transportation</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="transport" name="transport" value="transport" />
+                          <label for="transport">Transport</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">State/City</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <input type="text" name="search" id="search-category" placeholder="search..." />
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <p class="text-center text-danger">Select items as per your need then click on apply to get result.</p>
+                    <h5>Selected State</h5>
+                    <div class="selectedFilters">
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                      <h6>
+                        Rail Cargo Transport <span> <small> Subcategory</small></span>
+                      </h6>
+                    </div>
+                    <div class="category-box">
+                      <h4>Select State</h4>
+                      <ul class="category-grid">
+                        <li>
+                          <input type="checkbox" id="Gujarat" name="Gujarat" value="Gujarat" />
+                          <label for="Gujarat">Gujarat</label>
+                        </li>
+                      </ul>
+                      <h4 class="mt-2">Select City</h4>
+                      <ul class="category-grid city-list">
+                        <li>
+                          <input type="checkbox" id="Ahmedabad" name="Ahmedabad" value="Ahmedabad" />
+                          <label for="Ahmedabad">Ahmedabad</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="Rajot" name="Rajot" value="Rajot" />
+                          <label for="Rajot">Rajot</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="Surat" name="Surat" value="Surat" />
+                          <label for="Surat">Surat</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" id="Vapi" name="Vapi" value="Vapi" />
+                          <label for="Vapi">Vapi</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Amount</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <input type="text" name="search" id="search-category" placeholder="search..." />
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <p class="text-center text-danger">Select items as per your need then click on apply to get result.</p>
+                    <div class="amt-radio-group">
+                      <div class="radio-box">
+                        <input type="radio" name="" id="belo1" />
+                        <label for="belo1">Below 1LAC </label>
+                      </div>
+                      <div class="radio-box">
+                        <input type="radio" name="" id="belo1" />
+                        <label for="belo1">1LAC to 1CR </label>
+                      </div>
+                      <div class="radio-box">
+                        <input type="radio" name="" id="belo1" />
+                        <label for="belo1">1CR TO 10CR </label>
+                      </div>
+                      <div class="radio-box">
+                        <input type="radio" name="" id="belo1" />
+                        <label for="belo1">10CR TO 100CR</label>
+                      </div>
+                      <div class="radio-box">
+                        <input type="radio" name="" id="belo1" />
+                        <label for="belo1">Abow 100CR</label>
+                      </div>
+                    </div>
+                    <form action="" class="amt-form">
+                      <div>
+                        <label for="min-amt">Minimum Ammount</label>
+                        <input type="number" name="" id="min-amt" />
+                      </div>
+                      <div>
+                        <label for="max-amt">Maximum Ammount</label>
+                        <input type="number" name="" id="max-amt" />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">More</button>
+                  <div class="dropdown-menu search-dropdown-box">
+                    <form action="">
+                      <div class="btn-group">
+                        <button class="ClsBtn" type="button">Close</button>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Apply</button>
+                      </div>
+                    </form>
+                    <div class="more">
+                      <div>
+                        <p>Within Search</p>
+                        <form action="">
+                          <input type="text" placeholder="Search For Tenders i.e : road, valve" />
+                          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                      </div>
+                      <div>
+                        <p>Publish Date</p>
+                        <form action="">
+                          <input type="date" placeholder="Search Datewise" />
+                        </form>
+                      </div>
+                      <div>
+                        <p>NTID Search</p>
+                        <form action="">
+                          <input type="text" placeholder="Search For NTID i.e : 26974461, 26974160" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ApplyBtn">
+                <a href="#" class="Btn"> <img src="assets/applyFIlter.svg" /> Apply Filters </a>
+              </div>
+            </div>
+            <div class="SerachBox">
+              <div class="BtnSearch">
+                <p class="tablinksfilter active" onClick="FilterTab(event, 'Live')"><img src="assets/live.svg" /> Live <span>(88)</span></p>
+                <p class="tablinksfilter" onClick="FilterTab(event, 'Fresh')"><img src="assets/fre.svg" /> Fresh <span>(70)</span></p>
+                <p class="tablinksfilter" onClick="FilterTab(event, 'Favourite')"><img src="assets/favr.svg" /> Favourite <span>(20)</span></p>
+                <div class="ArchToggle">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <p class="archievebtn dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/arc.svg" /> Archieve</p>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Archieve</a></li>
+                        <li><a class="dropdown-item" href="#">Archieve - 2021</a></li>
+                        <li><a class="dropdown-item" href="#">Archieve - 2020</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="SerachBoxCon">
+                <div class="InputBox">
+                  <input type="text" placeholder="Search" />
+                  <button type="submit" class="SubBtn"><img src="assets/searchicon.png" /></button>
+                </div>
+                <div class="ArchToggle RangeFilter">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <p class="BarBtn" role="button" data-bs-toggle="dropdown" aria-expanded="true"><img src="assets/barbtn.svg" /></p>
+                      <div class="dropdown-menu">
+                        <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'Relevance')">Relevance</p>
+                        <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'PriceHightoLow')">Price: High to Low</p>
+                        <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'PriceLowtoHigh')">Price: Low to High</p>
+                        <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'AsctoDesc')">Closing Date: Asc to Desc</p>
+                        <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'DesctoAsc')">Closing Date: Desc to Asc</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="container-fluid">
+          <div class="TenderListWrap MenuBoxSec ">
+            <div class="LeftWrapTenderList">
+              <h3>MOST POPULAR TENDER</h3>
+              <div class="populartenders">
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+              <div class="mptbox">
+                <h4>Oil And Natural Gas</h4>
+                <p class="mptlocation"><i class="fa-solid fa-location-dot"></i> Mahesana, Gujarat, India </p>
+                <p class="dates">Opening Date : <span class="opendate">Sat 28th Jun, 2022</span></p>
+                <p class="dates">Closing Date : <span class="closedate">Sum 28th July, 2022</span></p>
+                <div class="pidbox">
+                  <p class="price"><span>₹</span> 2.17 Lacs</p>
+                  <p class="tenderid">NTIL 28110600</p>
+                </div>
+                <a href="#" class="btn">More Details</a>
+              </div>
+            </div>
+            <div class="applimg">
+              <img src="assets/applicationform.png" alt="">
+              <a href="#" class="btn">APPLY NOW</a>
+            </div>
+            </div>
+            <div class="RightWrapTenderList">
+              <!-- Live tab Content -->
+            <div id="Live" class="tabcontentfilter" style="display: block;">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+            </div>
+            <!-- end -->
+            <!-- Fresh tab Content -->
+            <div id="Fresh" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+            </div>
+            <!-- end -->
+            <!-- Favourite tab Content -->
+            <div id="Favourite" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+            </div>
+            <!-- end -->
+            <!-- Relevance tab Content -->
+            <div id="Relevance" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+            <!-- Price: High to Low tab Content -->
+            <div id="PriceHightoLow" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+            <!-- Price: Low to High tab Content -->
+            <div id="PriceLowtoHigh" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+            <!-- Closing Date: Asc to Desc tab Content -->
+            <div id="AsctoDesc" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+            <!-- Closing Date: Desc to Asc tab Content -->
+            <div id="DesctoAsc" class="tabcontentfilter">
+              <div class="DasSec BidTenInfo">
+                <div class="FirstSec">
+                  <div class="LeftSide">
+                    <h3>Western Railway</h3>
+                    <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+                  </div>
+                  <div class="RightSide">
+                    <p class="Txt">NTID 28110600</p>
+                    <p class="Box">20 days left</p>
+                  </div>
+                </div>
+                <ul class="DateWrap">
+                  <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+                  <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+                </ul>
+                <ul class="DateWrap Price">
+                  <li>₹ 2.17 Lacs</li>
+                  <li>NTID 28110600</li>
+                </ul>
+                <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+                <div class="BotmDesKey">
+                  <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD: <span>0.00</span> | Estimated Cost: <span>0.00</span></div>
+                  <ul class="IconBtn">
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+                    </li>
+                    <li>
+                      <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- body end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-box footer-box1">
+          <div class="footer-title">
+            <h3>TENDER BY CATEGORIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box2">
+          <div class="footer-title">
+            <h3>TENDER BY STATES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box3">
+          <div class="footer-title">
+            <h3>TENDER BY AUTHORITIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-last-box">
+          <div class="row footer-quick">
+            <div class="col">
+              <div class="footer-title">
+                <h3>QUICK LINKS</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Event</a></li>
+                <li><a href="#" class="quicklink">Pay Online</a></li>
+                <li><a href="#" class="quicklink">Career</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+                <li><a href="#" class="quicklink">Blogs</a></li>
+                <li><a href="#" class="quicklink">Achievements</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <div class="footer-title">
+                <h3>OUR ALL SERVICES</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">GeM</a></li>
+                <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+                <li><a href="#" class="quicklink">Tender Information</a></li>
+                <li><a href="#" class="quicklink">Tender Results</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-title">
+                <h3>VIDEO GALLERY</h3>
+                <a href="#" class="view">View All</a>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+                <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+                <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+                <li><a href="#" class="quicklink">Government Tender Information</a></li>
+                <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+                <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <div class="contact-link">
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                  <p>
+                    Sales: +91 7383 93 4054 <br />
+                    Care: +91 7383 93 1002
+                  </p>
+                </div>
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <p>Info@Nationaltenders.In</p>
+                </div>
+                <div class="social-icon-box">
+                  <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-bar">
+      <div class="container-fluid">
+        <div class="copy-bar">
+          <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+          <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="./script/app.js"></script>
+    <script src="./script/custom.js"></script>
+  </body>
+</html>
